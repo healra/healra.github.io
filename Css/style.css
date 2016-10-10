@@ -30,7 +30,7 @@ h1 {
 
 	25%, 75% {
 		text-shadow: 0 0 2px #3e180d;
-		transform: scale(6);
+		transform: scale(1.1);
 		opacity: 1;
 	}
 }
