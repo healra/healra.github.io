@@ -15,4 +15,10 @@ h1 {
 	margin: 0;
 	font-weight: 200; /* Lighter */
 	font-size: 5rem;
+	animation: wiggle 3s infinite;
+}
+
+@keyframes wiggle {
+	0%, 50%, 100% {text-shadow: 0 0 10px #3e180d; }
+	25%, 75% {text-shadow: 0 0 2px #3e180d;}
 }
