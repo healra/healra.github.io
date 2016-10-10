@@ -8,7 +8,7 @@ body {
 	margin: 0;
 	font: 1.375rem/1.5 "Spoqa Han Sans", Dotum, Sans-Serif;
 	color: #ffffff;
-	background: #000 url("Assets/main-page-bg.jpg") no-repeat center top;
+	background: #000 url("../Assets/main-page-bg.jpg") no-repeat center top;
 }
 
 h1 {
