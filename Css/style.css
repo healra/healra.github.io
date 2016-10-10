@@ -17,7 +17,7 @@ body {
 h1 {
 	margin: 0;
 	font-weight: 100; /* Lighter */
-	font-size: 5rem;
+	font-size: 3rem;
 	animation: wiggle 3s infinite;
 }
 
