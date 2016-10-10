@@ -8,6 +8,7 @@ Mira's Website
 - [x] Study Markdown
 - [ ] mark `index.html`
 
+
 ##Markdown 문법 사용법
 
 ### 제목
@@ -54,3 +55,12 @@ ul>li{item$}*3
 1. item1
 1. item2
 1. item3
+
+
+### 이미지
+
+```html
+<img src="http://imgnews.naver.net/image/277/2016/02/25/2016022215321517049_2_99_20160226135508.jpg" alt="pusheen">
+```
+
+![pusheen](http://imgnews.naver.net/image/277/2016/02/25/2016022215321517049_2_99_20160226135508.jpg)
