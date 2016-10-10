@@ -16,7 +16,7 @@ body {
 
 h1 {
 	margin: 0;
-	font-weight: 200; /* Lighter */
+	font-weight: 100; /* Lighter */
 	font-size: 5rem;
 	animation: wiggle 3s infinite;
 }
@@ -26,7 +26,7 @@ h1 {
 		text-shadow: 0 0 10px #3e180d; 
 		transform: scale(0.6);
 		letter-spacing: 3em;
-		
+
 		opacity: 0.6;
 	}
 
