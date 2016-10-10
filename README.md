@@ -73,5 +73,9 @@ ul>li{item$}*3
 ```html
 <a href="http://iropke.com" target="blank">이롭게 에이전시</a>
 ```
-- [디자이너](http://www.naver.com/ target="blank")
-- [소란콘서트](http://ticket.interpark.com/ target="blank")
+
+http://www.naver.com/
+
+
+- [디자이너](http://www.naver.com/)
+- [소란콘서트](http://ticket.interpark.com/)
