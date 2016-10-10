@@ -4,6 +4,9 @@
  * -------------------- */
 
 body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	min-height: 100vh;
 	margin: 0;
 	font: 1.375rem/1.5 "Spoqa Han Sans", Dotum, Sans-Serif;
@@ -27,7 +30,7 @@ h1 {
 
 	25%, 75% {
 		text-shadow: 0 0 2px #3e180d;
-		transform: scale(2);
+		transform: scale(6);
 		opacity: 1;
 	}
 }
