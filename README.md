@@ -60,7 +60,8 @@ ul>li{item$}*3
 ### 이미지
 
 ```html
-<img src="http://imgnews.naver.net/image/277/2016/02/25/2016022215321517049_2_99_20160226135508.jpg" alt="pusheen">
+<img src="http://imgnews.naver.net/image/277/2016/02/25/2016022215321517049_2_99_20160226135508.jpg" alt="pusheen" width="235" height="150" >
 ```
+<img src="http://imgnews.naver.net/image/277/2016/02/25/2016022215321517049_2_99_20160226135508.jpg" alt="pusheen" width="235" height="150" >
 
 ![pusheen](http://imgnews.naver.net/image/277/2016/02/25/2016022215321517049_2_99_20160226135508.jpg)
