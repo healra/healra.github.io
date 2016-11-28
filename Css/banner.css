@@ -1,0 +1,73 @@
+.banner {
+	overflow-x: hidden;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	width: 800px;
+	height: 320px;
+	margin: -160px 0 0 -400px;
+	background: url("../images/bg.jpg");
+}
+
+.banner-kingkong {
+	position: absolute;
+	bottom: 0;
+	right: 12px;
+	animation: move-in-from-top2 1s 1s forwards;;
+}
+
+.banner-golliras {
+	position: absolute;
+	left: 10px;
+	bottom: 24px;
+	animation: move-in-from-left2 1s 1s forwards;;
+}
+
+.banner-apes {
+	position: absolute;
+    left: 4px;
+    bottom: 94px;
+    animation: move-in-from-left 1s 1s forwards;;
+}
+.banner-sn-logo {
+	position: absolute;
+    top: 15px;
+    left: 18px;
+    animation: move-in-from-top 1s forwards;;
+	
+}
+
+.banner-headline {
+	position: absolute;
+	top: 31px;left: 122px;
+	margin: 0;
+	font-family: "Spoqa Han Sans";
+	font-size: 33px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 1.1;
+	letter-spacing: 0.03em;
+	color: #ffffff;
+	text-shadow: 0 0 4px rgba(1, 1, 1, 0.6);
+}
+
+
+@keyframes move-in-from-top {
+	0% { top:-200px; }
+	100% { top: 20px; }
+}
+
+@keyframes move-in-from-left {
+	0% { left:-1000px; }
+	100% { left: 4px; }
+}
+
+@keyframes move-in-from-left2 {
+	0% { left:-3000px; }
+	100% { left: 10px; }
+}
+
+@keyframes move-in-from-top2 {
+	0% { top:-600px; }
+	100% { top: 28px; }
+}

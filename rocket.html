@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta charset="UTF-8">
+  <title>로켓, 애니메이션</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    /* x1 */
+    .rocket {
+      width: 50px;
+      height: 115px;
+      background: url("images/rocket.png");
+      background-position: -450px 0;
+    }
+    .rocket:hover {
+      animation: rocket-fire 1s steps(9) infinite;
+    }
+    @keyframes rocket-fire {
+      0% { background-position-x: -450px; }
+      100% { background-position-x: 0px; }
+    }
+    /* x2 */
+    @media
+    	(-webkit-min-devive-pixel-ratio: 2),
+    	(min--moz-devive-pixel-ratio: 2),
+    	(min-resolution: 192dpi),
+    	(min-resolution: 2dpi) {
+    	.rocket_2x {
+    		background: url("images/rocket_2x.png");
+    		background-size: 500px 115px; 
+    	}	
+    	}
+    	
+    }
+  </style>
+</head>
+<body>
+
+  <div class="rocket"></div>
+  <div class="rocket rocket_2x"></div>
+
+
+</body>
+</html>
